@@ -1,0 +1,110 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1030; /* Ensures the navbar stays above other elements */
+}
+
+.service-icon {
+    width: 40px; /* Set consistent width */
+    height: 40px; /* Set consistent height */
+    object-fit: contain; /* Make sure the icon fits within the size */
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.section-title {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.portfolio-item {
+    height: 200px;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    font-size: 1.2rem;
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.hero {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+    color: white;
+}
+
+.hero h1, .hero p {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+
+.section-title {
+    color: #5558da; /* Add vibrant section title colors */
+}
+
+#services {
+    background: #e0f7fa; /* Light blue for the services section */
+}
+
+#portfolio {
+    background: #ffe4e1; /* Subtle coral shade for portfolio */
+}
+
+.service-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.btn-dark {
+    background-color: #635dff; /* Lively purple button background */
+    border: none;
+}
+
+.btn-dark:hover {
+    background: #4c47cc;
+}
+
+/* Darker hover shade for the button */
+
+.navbar-brand {
+    font-size: 1.8rem; /* Larger font size */
+    font-weight: 700; /* Bold font weight */
+    color: #4c47cc; /* Use a solid color for the text */
+    letter-spacing: 0.05rem; /* Refine spacing for elegance */
+    text-transform: uppercase; /* Uppercase for strong branding */
+    cursor: pointer; /* Pointing cursor for interactive feel */
+    text-decoration: none; /* Remove underline */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+.navbar-brand:hover {
+    transform: scale(1.05); /* Vergrößerung beim Hover für mehr Dynamik */
+}
+
+.navbar-brand:focus,
+.navbar-brand:active {
+    text-shadow: 0 4px 6px rgba(99, 93, 255, 0.4); /* Gleicher Effekt im Active- und Focus-Zustand */
+    background: linear-gradient(45deg, #4c47cc, #635dff); /* Behalten des Farbverlaufs */
+    -webkit-background-clip: text;
+    color: transparent; /* Farbverlauf bleibt sichtbar */
+    outline: none; /* Entfernen der eventuell störenden Umrandung */
+}
+
+.navbar-brand:visited {
+    color: transparent; /* Auch für besuchte Links sicherstellen */
+    background: linear-gradient(45deg, #4c47cc, #635dff);
+    -webkit-background-clip: text;
+}
+
