@@ -53,7 +53,6 @@ const translations = {
         starterFeature1: "✓ 1-seitige Website oder Landingpage",
         starterFeature2: "✓ Mobiloptimiertes Design",
         starterFeature3: "✓ Domain & Hosting-Einrichtung",
-        starterFeature4: "✓ 1 Stunde persönliche Schulung",
         starterCta: "Jetzt starten",
         businessBadge: "Beliebteste",
         businessTitle: "Business Paket",
@@ -139,7 +138,6 @@ const translations = {
         starterFeature1: "✓ 1-page website or landing page",
         starterFeature2: "✓ Mobile-optimised design",
         starterFeature3: "✓ Domain & hosting setup",
-        starterFeature4: "✓ 1 hour personal training",
         starterCta: "Get started",
         businessBadge: "Most Popular",
         businessTitle: "Business Package",
@@ -258,7 +256,6 @@ function updateLanguage() {
     document.querySelector('[data-translate="starterFeature1"]').textContent = t.starterFeature1;
     document.querySelector('[data-translate="starterFeature2"]').textContent = t.starterFeature2;
     document.querySelector('[data-translate="starterFeature3"]').textContent = t.starterFeature3;
-    document.querySelector('[data-translate="starterFeature4"]').textContent = t.starterFeature4;
     document.querySelector('[data-translate="starterCta"]').textContent = t.starterCta;
     document.querySelector('[data-translate="businessBadge"]').textContent = t.businessBadge;
     document.querySelector('[data-translate="businessTitle"]').textContent = t.businessTitle;
