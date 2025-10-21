@@ -43,8 +43,6 @@ const translations = {
         service2Text: "Technische und inhaltliche Optimierung, damit Ihr Unternehmen bei Google gefunden wird.",
         service3Title: "Hosting & Betreuung",
         service3Text: "Sichere Bereitstellung auf Github oder eigenem Server – inklusive Updates & Support.",
-        service4Title: "Inhalte & Schulung",
-        service4Text: "Wir helfen Ihnen, Texte und Bilder einzupflegen – inklusive Schulung für selbstständige Pflege.",
         
         // Pricing section
         pricingTitle: "Preise & Pakete",
@@ -131,8 +129,6 @@ const translations = {
         service2Text: "Technical and content optimisation so your business can be found on Google.",
         service3Title: "Hosting & Support",
         service3Text: "Secure deployment on Github or own server – including updates & support.",
-        service4Title: "Content & Training",
-        service4Text: "We help you upload texts and images – including training for independent management.",
         
         // Pricing section
         pricingTitle: "Prices & Packages",
@@ -252,8 +248,6 @@ function updateLanguage() {
     document.querySelector('[data-translate="service2Text"]').textContent = t.service2Text;
     document.querySelector('[data-translate="service3Title"]').textContent = t.service3Title;
     document.querySelector('[data-translate="service3Text"]').textContent = t.service3Text;
-    document.querySelector('[data-translate="service4Title"]').textContent = t.service4Title;
-    document.querySelector('[data-translate="service4Text"]').textContent = t.service4Text;
     
     // Update pricing section
     document.querySelector('[data-translate="pricingTitle"]').textContent = t.pricingTitle;
